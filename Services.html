@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="style.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/26267d4bc8.js" crossorigin="anonymous"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camryn Pena</title>
+</head>
+<body>
+    <header>
+  <nav>
+      <div class="name">Camryn Pena</div>
+      <ul>
+      <li><a href='Personal_Portfolio_Camryn.html'>Home</a></li>
+      <li><a href='About.html'>About</a></li>
+      <li><a href='Portfolio.html'>Portfolio</a></li>
+      <li><a href='Services.html'>Services</a></li>
+      <li><a href='Contact.html'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+   <main>
+        <Section class="info-box1">
+          
+          <div class="Content-block2">
+             <h4>SERVICES</h4>
+            <div class="Service-Box3">Graphic Design<i class="fa-solid fa-pen-ruler fa-xl fa-canvas-square"></i>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur nulla, quisquam accusantium sit delectus dolor alias, 
+              autem corporis ex molestiae voluptate quibusdam officiis assumenda neque, 
+              repudiandae ad architecto itaque eum.</p>
+            </div>
+            <div class="Service-Box3">Logo Design<i class="fa-regular fa-pen-to-square fa-xl fa-canvas-square"></i>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur nulla, quisquam accusantium sit delectus dolor alias, 
+              autem corporis ex molestiae voluptate quibusdam officiis assumenda neque, 
+              repudiandae ad architecto itaque eum.</p>
+            </div>
+            <div class="Service-Box3">Web Design<i class="fa-solid fa-laptop-code fa-xl fa-canvas-square"></i>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur nulla, quisquam accusantium sit delectus dolor alias, 
+              autem corporis ex molestiae voluptate quibusdam officiis assumenda neque, 
+              repudiandae ad architecto itaque eum.</p>
+            </div>
+            <div class="Service-Box3">Illustrator<i class="fa-solid fa-paintbrush fa-xl fa-canvas-square"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur nulla, quisquam accusantium sit delectus dolor alias, 
+              autem corporis ex molestiae voluptate quibusdam officiis assumenda neque, 
+              repudiandae ad architecto itaque eum.</p>
+          </div>
+          <img class="cursor" src="Flower_Cursor.png"/> 
+          <script>
+          const cursor = document.querySelector(".cursor");
+
+          document.addEventListener("mousemove", (event) => {
+
+          const {width, height} = cursor.getBoundingClientRect()
+
+          cursor.style.left = `${event.clientX - width / 2}px`
+          cursor.style.top = `${event.clientY - height / 2}px`});
+         </script>
+    </main>
+ <footer>
+      <p>© 2026 Personal Portfolio </p>
+       <div class="Icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok fa-float fa-2xl"></i>
+        </a>
+        </div>
+    </footer>
+</body>
+</html>

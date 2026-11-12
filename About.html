@@ -1,0 +1,71 @@
+<!Doctype html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="style.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/26267d4bc8.js" crossorigin="anonymous"></script>
+     
+    <title>Camryn Pena</title>
+</head>
+<body>
+    <header>
+  <nav>
+      <div class="name">Camryn Pena</div>
+      <ul>
+      <li><a href='Personal_Portfolio_Camryn.html'>Home</a></li>
+      <li><a href='About.html'>About</a></li>
+      <li><a href='Portfolio.html'>Portfolio</a></li>
+      <li><a href='Services.html'>Services</a></li>
+      <li><a href='Contact.html'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+   <main> 
+
+       
+        <section class="About-C">
+          <div class="About-Me">
+           <h3> I'm Camryn Peña, a Graphic Designer and Illustrator based in Houston, Tx</h3>
+        
+           <p>Since Childhood, I have always enjoyed expressing myself creatively through visual arts. 
+            However, into my teens and early adulthood I found a true passion for Media arts. 
+            Drawing and Painting has always been my preferred creative outlets but using my knowledge
+            in Design Software like Adobe Creative Suite, I feel as though my work has the ability to 
+            reach its full potential with no limitations. Nothing excites me more than learning a new 
+            skill or taking on a new challenge. I hold the belief that life should be spent working on 
+            things that both inspire and challenge you, and it's this belief that has paved the way for 
+            me to work on this creative path within the design world. When I'm not glued to my computer,
+            I like to spend my free time Crocheting, Drawing, Cooking, and Spending time with my family. </p>
+            </div>
+         </Section>
+        
+
+
+         <img class="cursor" src="Flower_Cursor.png"/> 
+         <script>
+          const cursor = document.querySelector(".cursor");
+
+          document.addEventListener("mousemove", (event) => {
+
+          const {width, height} = cursor.getBoundingClientRect()
+
+          cursor.style.left = `${event.clientX - width / 2}px`
+          cursor.style.top = `${event.clientY - height / 2}px`});
+         </script>
+    </main>
+ <footer>
+      <p>© 2026 Personal Portfolio </p>
+       <div class="Icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok fa-float fa-2xl"></i>
+        </a>
+        </div>
+    </footer>
+</body>
+</html>

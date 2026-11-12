@@ -1,0 +1,66 @@
+<!Doctype html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="style.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/26267d4bc8.js" crossorigin="anonymous"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camryn Pena</title>
+</head>
+<body>
+    <header>
+  <nav>
+      <div class="name">Camryn Pena</div>
+      <ul>
+      <li><a href='Personal_Portfolio_Camryn.html'>Home</a></li>
+      <li><a href='About.html'>About</a></li>
+      <li><a href='Portfolio.html'>Portfolio</a></li>
+      <li><a href='Services.html'>Services</a></li>
+      <li><a href='Contact.html'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+   <main>
+    
+        <section class="info-box1">
+          <h1>Lets Collaborate!</h1>
+         <div class="Content-block3">
+           <form action="https://formspree.io/f/meaowbpk" method="POST">
+            <h5>Contact</h5>
+            <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+            <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+            <textarea rows="5" cols="60" name="message" placeholder=" Enter Text" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+            </form>
+            </div>
+       </section>
+       <img class="cursor" src="Flower_Cursor.png"/>
+    </main>
+ <footer>
+      <p>© 2026 Personal Portfolio </p>
+
+       <div class="Icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram fa-float fa-2xl"></i>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok fa-float fa-2xl"></i>
+        </a>
+        </div>
+      <script>
+          const cursor = document.querySelector(".cursor");
+
+          document.addEventListener("mousemove", (event) => {
+
+          const {width, height} = cursor.getBoundingClientRect()
+
+          cursor.style.left = `${event.clientX - width / 2}px`
+          cursor.style.top = `${event.clientY - height / 2}px`});
+         </script>
+    </footer>
+</body>
+</html>
